@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivCharacterDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvNameCharacterDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        tools:text="Alien Morty"/>
+
+    <TextView
+        android:id="@+id/tvStatusCharacterDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        tools:text="[🟢] Status: Alive" />
+
+    <TextView
+        android:id="@+id/tvSpeciesCharacterDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        tools:text="[🐾] Species: Human" />
+
+    <TextView
+        android:id="@+id/tvTypeCharacterDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        tools:text="[🏷️] Type: " />
+
+    <TextView
+        android:id="@+id/tvGenderCharacterDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        tools:text="[♀️] Gender: Male" />
+
+    <TextView
+        android:id="@+id/tvOriginNameCharacterDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        tools:text="[🏠] Origin: Earth" />
+
+    <TextView
+        android:id="@+id/tvLocationNameCharacterDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        tools:text="[📍] Location: Earth" />
+
+    <TextView
+        android:id="@+id/tvEpisodeCharacterDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        tools:text="[🎬] Episode count: 3" />
+
+</LinearLayout>
